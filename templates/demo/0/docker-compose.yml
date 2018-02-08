@@ -1,7 +1,7 @@
 version: '2'
 services:
-  nginx:
-    image: nginx:1.9
+  springboot:
+    image: wattazoum/springboot-runner
     stdin_open: true
     tty: true
     labels:

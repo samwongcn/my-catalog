@@ -1,10 +1,10 @@
 .catalog:
-  name: mydemo1
+  name: springboot1
   description: |
-     my-catalog demo
+     my-catalog  -sprinboot1
   version: 0.1
   minimum_rancher_version: v1.0.0
-  maintainer: "Rancher-CN <rancher-cn@samwong.com>"
+  maintainer: "samwongcn@qq.com"
   questions:
     - variable: "scale_number"
       description: |
@@ -17,13 +17,13 @@
       description: |
         External Port
       label: "HAProxy External Port:"
-      default: "8080"
+      default: "9005"
       required: true
       type: "int"
 
 version: '2'
 services:
-  nginx:
+  springboot:
     scale: $scale_number
     start_on_create: true
   lb:

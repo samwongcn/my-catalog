@@ -1,7 +1,7 @@
-name: Catalog Demo
+name: springboot1
 description: |
-  Demo nginx service
+  springboot1
 version: 0.1
-category: Demo
+category: springboot
 maintainer: community
 license:
